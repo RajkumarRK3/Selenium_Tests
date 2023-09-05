@@ -1,0 +1,507 @@
+{
+  "id": "d017648d-c220-4f6d-b252-c5b2f4b33a11",
+  "version": "2.0",
+  "name": "Selenium Tests",
+  "url": "https://relx-elsevier--sfmqa.sandbox.lightning.force.com",
+  "tests": [{
+    "id": "644ad33e-7083-4f5f-9d72-8cd84861ae2c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "05f3e486-ffb9-40e7-910b-e20b95d4b980",
+    "name": "Selenium Test for 8164",
+    "commands": []
+  }, {
+    "id": "479e8f7f-d404-472b-9525-3e8cfdca34a1",
+    "name": "Selenium Test for 8164-1",
+    "commands": [{
+      "id": "303093d0-950b-46b0-a225-9e5e1307a9fa",
+      "comment": "",
+      "command": "open",
+      "target": "/lightning/page/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be04a3c7-33ae-45b9-830d-1fa80d4f163d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x474",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "809c362f-1ba3-415d-aa9c-02f71de62b24",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@title='Home']/*[text()='Home']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b3325d9-7e60-431b-9b23-65c179e15889",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//*[@class='slds-icon-waffle']",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "4a3458e7-f5e5-4652-840e-fa6ea8f67a44",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@class='slds-icon-waffle']",
+      "targets": [
+        ["css=.slds-icon-waffle", "css:finder"],
+        ["xpath=//one-app-launcher-header/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93cb52d6-65cb-4c74-88ba-0e472fff0a60",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//*[@placeholder='Search apps and items...']",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "22bbd49e-028c-42aa-8a8a-9ebc11e0537a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@placeholder='Search apps and items...']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8947c929-fe22-4108-88d8-30ecb67a9d94",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//*[@placeholder='Search apps and items...']",
+      "targets": [],
+      "value": "Leads"
+    }, {
+      "id": "544a1cd6-14c0-4e9d-befa-92e6ff165078",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='Lead']//*[text()='Leads']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "799ae3dd-7b6d-46c0-b643-ebef24234c25",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div//div//button[text()='Search...']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d747bb02-c1b2-4cc4-8166-98271033c680",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div//div//button[text()='Search...']",
+      "targets": [],
+      "value": "SFMS- Test 8009\\n"
+    }, {
+      "id": "625797eb-c40d-4cdb-8d03-f64cdbf2f80e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-icon-utility-add",
+      "targets": [
+        ["css=.slds-icon-utility-add", "css:finder"],
+        ["xpath=//div[@id='2:1330;a']/div/div/a/div/lightning-icon", "xpath:idRelative"],
+        ["xpath=//a/div/lightning-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea18c44-cd35-49f5-978a-81ae516b03c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=111:0;p",
+      "targets": [
+        ["id=111:0;p", "id"],
+        ["css=#\\31 11\\3A 0\\;p", "css:finder"],
+        ["xpath=//button[@id='111:0;p']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df515811-d576-433f-81f4-8d2cbc1b30ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.two-fields .slds-clearfix",
+      "targets": [
+        ["css=.two-fields .slds-clearfix", "css:finder"],
+        ["xpath=//div[@id='suggestionsList-134']/search_dialog-instant-result-item[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//search_dialog-instant-result-item[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4639cd10-c536-4e65-8764-1498570950ae",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//*[@placeholder='Search Leads and more...']",
+      "targets": [],
+      "value": "SFMS- Test 8009\\n"
+    }, {
+      "id": "0c53f102-1999-46f4-9e86-034a230b849e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=search_dialog-instant-result-item:nth-child(2) .data-match:nth-child(1)",
+      "targets": [
+        ["css=search_dialog-instant-result-item:nth-child(2) .data-match:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='suggestionsList-188']/search_dialog-instant-result-item[2]/div/div[2]/span/lightning-formatted-rich-text/span/mark", "xpath:idRelative"],
+        ["xpath=//search_dialog-instant-result-item[2]/div/div[2]/span/lightning-formatted-rich-text/span/mark", "xpath:position"],
+        ["xpath=//mark[contains(.,'SFMS-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6751bd35-8752-4bbe-b658-4997bfe09652",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outputLookupLink-00Q3M000006xmF7UAI-1311\\3A 0",
+      "targets": [
+        ["css=.outputLookupLink-00Q3M000006xmF7UAI-1311\\3A 0", "css:finder"],
+        ["xpath=(//a[contains(text(),'SFMS- Test 8009')])[2]", "xpath:link"],
+        ["xpath=//div[@id='preview']/div/div/header/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lightning/r/00Q3M000006xmF7UAI/view')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5032c489-54bb-4b12-9d59-da1c2c1c7a35",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='Edit Level 1 Product']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f613a0dd-7bf7-4fa3-ade3-909f4abc318a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='Level 1 Product']/../div//button/span[text()='--None--']",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "3950e4b0-e275-4564-aa38-d1bd2217d0f0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//*[@data-value='Life Sciences']/..//span[text()='Life Sciences']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1de985d-ce84-443b-8c6f-e598c75fa3bc",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//*[@class='slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid slds-dropdown_left']/lightning-base-combobox-item[11]//*[text()='Life Sciences']",
+      "targets": [],
+      "value": "Life Sciences"
+    }, {
+      "id": "155d4350-9980-4ac3-bcf9-016dbc353672",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-button_icon-small > lightning-primitive-icon path",
+      "targets": [
+        ["css=.slds-button_icon-small > lightning-primitive-icon path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a6c9eb5-9241-45ff-acc0-9ff84ea1cae6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-button_icon-small > lightning-primitive-icon path",
+      "targets": [
+        ["css=.slds-button_icon-small > lightning-primitive-icon path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6fe6e10-3c9f-4a60-a485-a3829b25f78b",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-button",
+      "targets": [
+        ["id=combobox-button-1260", "id"],
+        ["css=#combobox-button-1260", "css:finder"],
+        ["xpath=//button[@id='combobox-button-1260']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-570']/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-section[2]/div/div/div/slot/records-record-layout-row/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:position"]
+      ],
+      "value": "Level 1 Product"
+    }, {
+      "id": "6c755efc-b74b-4e0f-bfb6-c492443be89b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-button-1260-10-1260 .slds-truncate",
+      "targets": [
+        ["css=#combobox-button-1260-10-1260 .slds-truncate", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-button-1260-10-1260']/span[2]/span", "xpath:idRelative"],
+        ["xpath=//lightning-base-combobox-item[11]/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a39a082-76b6-4497-846b-84e7d64e5038",
+      "comment": "",
+      "command": "click",
+      "target": "id=combobox-button-1278",
+      "targets": [
+        ["id=combobox-button-1278", "id"],
+        ["css=#combobox-button-1278", "css:finder"],
+        ["xpath=//button[@id='combobox-button-1278']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-570']/div/slot/records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ac98bd-8ced-4fd8-a6ba-876a23b8c87f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#combobox-button-1278-7-1278 > .slds-media__body",
+      "targets": [
+        ["css=#combobox-button-1278-7-1278 > .slds-media__body", "css:finder"],
+        ["xpath=//lightning-base-combobox-item[@id='combobox-button-1278-7-1278']/span[2]", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div[2]/lightning-base-combobox-item[8]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "24d6844b-b7f7-44f7-aac1-f2682aa08073",
+    "name": "Selenium Test for 7450",
+    "commands": [{
+      "id": "561b7401-4a53-45fc-9b87-95a482905c48",
+      "comment": "",
+      "command": "open",
+      "target": "/lightning/page/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82720251-d39b-4ec6-8e1d-b41dde11ee2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x928",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39272004-e738-4901-b681-0d438d6f1097",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-r6",
+      "targets": [
+        ["css=.slds-r6", "css:finder"],
+        ["xpath=//button/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfc4c999-791a-4eae-96f4-d49d60da0e40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-r6",
+      "targets": [
+        ["css=.slds-r6", "css:finder"],
+        ["xpath=//one-app-launcher-header[@id='window']/button/div/div[6]", "xpath:idRelative"],
+        ["xpath=//button/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b12f46cf-dbca-4d51-ba65-b2ada2c6dec9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-r6",
+      "targets": [
+        ["css=.slds-r6", "css:finder"],
+        ["xpath=//one-app-launcher-header[@id='window']/button/div/div[6]", "xpath:idRelative"],
+        ["xpath=//button/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "792506ea-98a6-47f0-9417-ab73d0e876ae",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@placeholder='Search apps and items...']",
+      "targets": [
+        ["id=input-227", "id"],
+        ["css=#input-227", "css:finder"],
+        ["xpath=//input[@id='input-227']", "xpath:attributes"],
+        ["xpath=//div[@id='content_2012:0']/one-app-launcher-menu/div/one-app-launcher-search-bar/lightning-input/lightning-primitive-input-simple/div/div/input", "xpath:idRelative"],
+        ["xpath=//one-app-launcher-search-bar/lightning-input/lightning-primitive-input-simple/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a439f1-d14c-4612-8b0b-e3faf6ba55aa",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//*[@placeholder='Search apps and items...']",
+      "targets": [],
+      "value": "Cases"
+    }, {
+      "id": "3f60defa-46a6-4823-a84f-6c0bc9d270df",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='Case']//*[text()='Cases']",
+      "targets": [
+        ["css=.slds-button_neutral", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af999008-7fee-40ac-bc38-82a6aec9e8ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-button_neutral",
+      "targets": [
+        ["css=.slds-button_neutral", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//header[@id='oneHeader']/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d75ba4c-e7aa-4c24-aa1f-dfa44e1e9f03",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='Search...']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5983caa4-9e9e-4b14-b706-a30814a64b22",
+      "comment": "",
+      "command": "type",
+      "target": "//*[@placeholder='Search Cases and more...']",
+      "targets": [],
+      "value": "00247693"
+    }, {
+      "id": "8eba9c66-84df-414a-b5d8-0e10b23bc128",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=00247693",
+      "targets": [
+        ["linkText=00247693", "linkText"],
+        ["css=.outputLookupLink-5003M00000ALLzPQAX-2856\\3A 0", "css:finder"],
+        ["xpath=//a[contains(text(),'00247693')]", "xpath:link"],
+        ["xpath=//div[@id='preview']/div/div/header/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lightning/r/5003M00000ALLzPQAX/view')]", "xpath:href"],
+        ["xpath=//div/div/header/div[2]/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'00247693')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa88ce1-add4-4508-89a5-d07788911238",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=00247693",
+      "targets": [
+        ["linkText=00247693", "linkText"],
+        ["css=.outputLookupLink-5003M00000ALLzPQAX-2856\\3A 0", "css:finder"],
+        ["xpath=//a[contains(text(),'00247693')]", "xpath:link"],
+        ["xpath=//div[@id='preview']/div/div/header/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lightning/r/5003M00000ALLzPQAX/view')]", "xpath:href"],
+        ["xpath=//div/div/header/div[2]/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'00247693')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39e7a57c-787a-4631-acd9-14e6149d32f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,280.8888854980469)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec90ef8b-7bef-479e-b734-42eb0dd91d38",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,362.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e7f920a-1afd-474f-808d-bf75ab3fb5a9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='Edit Query Type']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dbf40b0-70fd-441a-90b6-8aa770d6f6fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='Query Type']/../div//button/span[text()='--None--']",
+      "targets": [
+        ["id=combobox-button-881", "id"],
+        ["css=#combobox-button-881", "css:finder"],
+        ["xpath=//button[@id='combobox-button-881']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-289']/div/slot/records-record-layout-row[5]/slot/records-record-layout-item[2]/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[5]/slot/records-record-layout-item[2]/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "14418364-516e-466f-8856-a610677b88a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//*[text()='Q2C']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f654cdf4-5279-473f-be14-e3767b96bde6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[text()='Q2C']",
+      "targets": [],
+      "value": "Q2C"
+    }, {
+      "id": "a244ddde-44d1-4c55-99e8-d7d908b2edc9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/lightning-base-combobox-item[15]//following::span/*",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d090c90-dea1-4116-bf1b-4e45f7e3d2db",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='Query Sub-Type']/../div//button/span[text()='--None--']",
+      "targets": [
+        ["id=combobox-button-1119", "id"],
+        ["css=#combobox-button-1119", "css:finder"],
+        ["xpath=//button[@id='combobox-button-1119']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionContent-289']/div/slot/records-record-layout-row[5]/slot/records-record-layout-item[2]/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//records-record-layout-row[5]/slot/records-record-layout-item[2]/div/span/slot/records-record-picklist/records-form-picklist/lightning-picklist/lightning-combobox/div/div/lightning-base-combobox/div/div/div/button", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "1cfbcd4c-e46d-483a-9a58-3c5c6dac9d6a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//*[text()='DocuSign Shared Access']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a94bafae-30b0-495d-845d-493c8976efcc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[text()='DocuSign Shared Access']",
+      "targets": [],
+      "value": "DocuSign Shared Access"
+    }, {
+      "id": "a0bedb56-cdb8-4eff-890f-fd7e08cbaf33",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[text()='DocuSign Shared Access']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e842d1b1-be36-4fb1-8e2a-456b93d95ccc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@name='CancelEdit']",
+      "targets": [],
+      "value": "30000"
+    }]
+  }],
+  "suites": [{
+    "id": "f4427656-9c83-4ec5-af6a-867ac210b032",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["644ad33e-7083-4f5f-9d72-8cd84861ae2c"]
+  }],
+  "urls": ["https://relx-elsevier--sfmqa.sandbox.lightning.force.com/"],
+  "plugins": []
+}
